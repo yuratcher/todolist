@@ -6,9 +6,7 @@
   "scripts": {
     "watch": "webpack -d --watch",
     "build": "webpack",
-    "serve": "serve ./public",
-    "start": "nodemon"
-  },
+    "start": "serve ./public" },
   "author": "Christian Nwamba",
   "license": "MIT",
   "devDependencies": {
