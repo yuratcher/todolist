@@ -1,28 +1,23 @@
 {
-  "name": "scotch-react-router",
-  "version": "1.0.0",
-  "description": "React Router Aricle for Scotch",
-  "main": "index.js",
-  "scripts": {
-    "watch": "webpack -d --watch",
-    "build": "webpack",
-    "start": "serve ./public" },
-  "author": "Christian Nwamba",
-  "license": "MIT",
+  "name": "todos",
+  "version": "0.0.1",
+  "private": true,
   "devDependencies": {
-    "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.13.2",
-    "babel-preset-react": "^6.11.1",
-    "webpack": "^1.13.1",
-    "serve": "^1.4.0"
+    "enzyme": "^2.8.2",
+    "react-addons-test-utils": "^15.5.1",
+    "react-scripts": "^1.0.2"
   },
   "dependencies": {
-    "axios": "^0.14.0",
-    "babel-core": "^6.26.0",
-    "express": "^4.14.0",
-    "history": "^3.0.0",
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0",
-    "react-router": "^2.6.1"
+    "prop-types": "^15.5.10",
+    "react": "^15.5.0",
+    "react-dom": "^15.5.0",
+    "react-redux": "^5.0.5",
+    "redux": "^3.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test"
   }
 }
